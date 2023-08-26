@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+}
+
+p,
+h4 {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+main img {
+    width: 100%;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: -10px;
+    color: white;
+}
+
+article p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+article .info {
+    padding: 110px;
+}
+
+article img {
+    padding-top: 80px;
+    padding-right: 150px;
+    width: 399px;
+    height: 237px;
+}
+
+.iconos {
+    background: #1E1A13;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+.iconos .logos {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    padding-right: 0px;
+}
+
+.iconos h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.iconos h4 {
+    padding-top: 16px;
+}
+
+.galeria {
+    background-color: black;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.galeria img {
+    width: 316px;
+    height: 202px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #1E1A13;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+a:visited {
+    color: white;
+}
+
+footer p {
+    font-weight: 300;
+    font-size: 20px;
+}
